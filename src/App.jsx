@@ -8,6 +8,7 @@ import Leaderboard from "./pages/Leaderboard/Leaderboard";
 import Bonuses from "./pages/Bonuses/Bonuses";
 import HowToRegister from "./pages/HowToRegister/HowToRegister";
 import RewardPage from "./pages/Leaderboard/RewardPage";
+import VideoPage from "./pages/Leaderboard/VideoPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/leaderboard" Component={Leaderboard} />
           <Route path="/how-to-register" Component={HowToRegister} />
           <Route path="/rewards" Component={RewardPage} />
+          <Route path="/videos" Component={VideoPage} />
         </Routes>
       </div>
       <Footer />

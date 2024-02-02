@@ -210,3 +210,32 @@ body {
 .fs1 {
   font-size: 70px;
 }
+
+.btn-sec {
+  border: 1px solid #f8526e;
+  color: #f8526e;
+  font-weight: 700;
+}
+
+.btn-sec:hover {
+  background-color: #f8526e;
+}
+
+.imgv {
+  width: 100%;
+  height: 300px;
+
+  border-radius: 10px;
+  border: 0.5px solid #f8526e;
+}
+
+.textMuted {
+  color: #898297;
+  margin: 0;
+}
+
+@media(max-width:768px) {
+  .imgv {
+    height: auto;
+  }
+}
