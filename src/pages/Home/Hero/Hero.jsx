@@ -4,6 +4,10 @@ import React, { useState, useEffect } from "react";
 import styles from "./hero.module.css";
 import MagicScrollButton from "../../../components/MagicScrollButton/MagicScrollButton";
 import herobg from "../../../assets/images/home/herobg.png";
+import dice from "../../../assets/images/dice.png";
+import diamond from "../../../assets/images/dimond.png";
+import seven from "../../../assets/images/sevev.png";
+import bell from "../../../assets/images/bell.png";
 
 const Hero = () => {
   const [isShown, setIsShown] = useState(false);
@@ -40,6 +44,12 @@ const Hero = () => {
       <a href="#Bonuses" className="d-flex justify-content-center mt-5">
         <MagicScrollButton />
       </a>
+      <div className="position-relative">
+        <img className="width po1" src={seven} alt="" />
+        <img className="width po2" src={dice} alt="" />
+        <img className="width po3" src={diamond} alt="" />
+        <img className="width po4" src={bell} alt="" />
+      </div>
     </div>
   );
 };
