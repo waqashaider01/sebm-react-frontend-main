@@ -10,14 +10,14 @@ function RewardPage() {
             {" "}
             <span class="text-primary">Over $16,000 in</span> Level Up Rewards
           </h1>
-          <p className="text-center mb-3">
+          <p className="text-center mb-5">
             if the deposit Bonuses / Leaderboard and Cashback of 500.casino
             isn't enough for you, here are Level Rewards. <br /> If you signed
             up under Code "SEBM" you will have access to these{" "}
             <span class="text-primary text-center">
               EXCLUSIVE Level Up Rewards
             </span>
-            <div className="row my-3">
+            <div className="row my-5">
               <div className="col-md-3 my-2">
                 <div className="card bgc1 p-2">
                   <p class="text-center fs-2 fw-bold">Level 300</p>
