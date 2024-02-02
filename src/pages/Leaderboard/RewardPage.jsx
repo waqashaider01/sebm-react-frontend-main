@@ -1,5 +1,6 @@
 import React from "react";
 import MagicScrollButton from "../../components/MagicScrollButton/MagicScrollButton";
+import arrow from "../../assets/images/arrow.png";
 
 function RewardPage() {
   return (
@@ -36,7 +37,7 @@ function RewardPage() {
                 </div>
               </div>
               <div className="col-md-3 my-2 align-self-center">
-                <img className="img-fluid" src="/images/arrow.png" alt="" />
+                <img className="img-fluid" src={arrow} alt="" />
               </div>
               <div className="col-md-3 my-2">
                 <div className="card bgc1 p-2">
@@ -56,7 +57,7 @@ function RewardPage() {
                 </div>
               </div>
               <div className="col-md-3 my-2 align-self-center">
-                <img className="img-fluid" src="/images/arrow.png" alt="" />
+                <img className="img-fluid" src={arrow} alt="" />
                 <p class="text-center fs-2 fw-bold">Level 500-600</p>
               </div>
             </div>

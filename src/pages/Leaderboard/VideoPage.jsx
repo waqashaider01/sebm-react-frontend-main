@@ -1,5 +1,6 @@
 import React from "react";
-
+import v1 from "../../assets/images/v1.png";
+import v2 from "../../assets/images/v2.png";
 function VideoPage() {
   return (
     <>
@@ -19,7 +20,7 @@ function VideoPage() {
           <div className="row mt-4 mb-5">
             <div className="col-md-6">
               <div className="vCard">
-                <img className="imgv" src="/images/v2.png" alt="" />
+                <img className="imgv" src={v2} alt="" />
                 <p className="mt-1 vTitle mb-0 ">
                   WORLDS *FIRST* MAX WIN ON NET GAINS!
                 </p>
@@ -31,7 +32,7 @@ function VideoPage() {
             </div>
             <div className="col-md-6">
               <div className="vCard">
-                <img className="imgv" src="/images/v1.png" alt="" />
+                <img className="imgv" src={v1} alt="" />
                 <p className="mt-1 vTitle mb-0 ">
                   WORLDS *FIRST* MAX WIN ON NET GAINS!
                 </p>
