@@ -114,6 +114,12 @@ body {
   border-spacing: 0 10px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .table th {
   color: #919191;
   border: 0;
@@ -177,4 +183,30 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1rem;
+}
+
+.bgc1 {
+  /* background: url('../public/images/bg25.png'); */
+
+}
+
+.tp {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+.shad {
+  font-size: 100px;
+  font-weight: 900;
+  color: #262230;
+  text-shadow:
+    -1px -1px 0 gray,
+    1px -1px 0 gray,
+    -1px 1px 0 gray,
+    1px 1px 0 gray
+}
+
+.fs1 {
+  font-size: 70px;
 }
