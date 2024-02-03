@@ -28,7 +28,7 @@ const Bonuses = () => {
       </h1>
       <div className="container " data-aos="fade-up">
         <div className="row ">
-          <div className="col-md-4">
+          <div className="col-md-4 my-2">
             <div className={`${styles.card} card my-2 h-100`}>
               <img
                 src={card_1_img}
@@ -57,7 +57,7 @@ const Bonuses = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 my-2">
             <div className={`${styles.card} card my-2 h-100`}>
               <img
                 src={card_2_img}
@@ -84,7 +84,7 @@ const Bonuses = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 my-2">
             <div className={`${styles.card} card my-2 h-100`}>
               <img
                 src={card_3_img}
