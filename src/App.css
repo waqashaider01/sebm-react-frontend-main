@@ -234,11 +234,7 @@ body {
   margin: 0;
 }
 
-@media(max-width:768px) {
-  .imgv {
-    height: auto;
-  }
-}
+
 
 .width {
   width: 70px !important;
@@ -283,5 +279,19 @@ body {
 
   100% {
     transform: translateY(0);
+  }
+}
+
+@media(max-width:768px) {
+  .imgv {
+    height: auto;
+  }
+
+  .po2 {
+    left: 2rem;
+  }
+
+  .MonthlyLeaderboard_img__EVDQp {
+    width: 200px;
   }
 }

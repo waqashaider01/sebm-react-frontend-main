@@ -2,8 +2,19 @@
     font-size: 50px;
     color: #f8526e;
 }
+
 .cardImgTop {
     margin: auto;
     width: auto;
     max-height: 150px;
+}
+
+@media(max-width:768px) {
+    .title {
+        font-size: 30px !important;
+    }
+
+    #Bonuses {
+        font-size: 30px !important;
+    }
 }
